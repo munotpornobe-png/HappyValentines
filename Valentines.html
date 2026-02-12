@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Chamomile 🌼</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Happy Valentine's Day, My Love 💖</h1>
+    <button onclick="showFlower()">Click Me 🌼</button>
+
+    <div class="flower" id="flower">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center"></div>
+        <div class="stem"></div>
+    </div>
+
+    <div class="message" id="message">
+        Even though you are far away from me, my heart is always right beside you.<br><br>
+        I am so proud of the amazing accountant and hardworking woman you are becoming.<br><br>
+        Every late night, every challenge you face only makes me admire you more.<br><br>
+        You bloom beautifully in your career, just like this chamomile flower.<br><br>
+        No distance can ever lessen how deeply I love you. 🌼❤️
+    </div>
+</div>
+
+<script>
+function showFlower() {
+    document.getElementById("flower").classList.add("show");
+    document.getElementById("message").classList.add("show-message");
+}
+</script>
+
+</body>
+</html>
